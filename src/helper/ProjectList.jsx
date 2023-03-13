@@ -1,9 +1,8 @@
-import Projectimg1 from "../assets/projectimg1.png";
-import Projectimg2 from "../assets/projectimg2.png";
-import Projectimg3 from "../assets/projectimg3.webp";
-import Projectimg4 from "../assets/projectimg4.png";
-import Projectimg5 from "../assets/projectimg5.png";
-import Projectimg6 from "../assets/projectimg6.png";
+import { default as Projectimg1, default as Projectimg6 } from "../assests/ComerceImg.png";
+import Projectimg2 from "../assests/E-comerceImg.png";
+import Projectimg4 from "../assests/EmailBuiderImg.png";
+import Projectimg5 from "../assests/HelperImg.png";
+import Projectimg3 from "../assests/OnlineBankingImg.webp";
 
 export const ProjectList = [
   {
