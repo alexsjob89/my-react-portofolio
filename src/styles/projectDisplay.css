@@ -13,8 +13,9 @@
     font-size: 35px;
 }
 
-.project img {
-    width: 700px;
+.project .video {
+    width: 10rem;
+    height: 10rem;
     border-radius: 10px;
 }
 

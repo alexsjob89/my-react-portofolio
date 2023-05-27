@@ -1,3 +1,11 @@
+* {
+    text-decoration: none;
+}
+
+body {
+    scroll-snap-type: x mandatory;
+}
+
 .App {
     width: 100%;
     height: auto;
@@ -5,9 +13,75 @@
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f0f0f0;
+    scroll-snap-type: mandatory;
 }
 
 body {
     padding: 0;
     margin: 0;
+}
+
+.ContactUs {
+    position: relative;
+    margin-left: 35.5%;
+    margin-top: 10rem;
+    /* border: 1px solid black; */
+    width: 30rem;
+    height: 20rem;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 6px 12px 4px rgba(0, 0, 0, 0.38);
+    box-shadow: 2px 6px 12px 4px rgba(0, 0, 0, 0.38);
+    overflow: hidden;
+}
+
+.form-Items {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    margin-top: 3px;
+    /* border: 1px solid black; */
+    width: 27rem;
+    margin-left: 1.4rem;
+    overflow: hidden;
+}
+
+input {
+    outline: none;
+    padding: 0%;
+    margin: 0%;
+    height: 2.5rem;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.5px solid grey;
+    outline: none;
+    font-size: 22px;
+    font-weight: 50;
+    font-family: sans-serif;
+}
+
+.btnSend {
+    margin-top: 10px;
+    height: 2.5rem;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #21325e;
+    border: none;
+    color: white;
+}
+
+textarea {
+    border-radius: 8px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    font-size: 18px;
 }

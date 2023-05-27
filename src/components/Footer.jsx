@@ -9,7 +9,6 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        ("")
         <InstagramIcon />
         <TwitterIcon />
         <FacebookIcon />

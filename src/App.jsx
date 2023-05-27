@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
+import { ContactUs } from "./components/ContactUs";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Experience from "./pages/Experience";
@@ -17,6 +18,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/project/:id" element={<ProjectDisplay />} />
           <Route path="/experience" element={<Experience />} />
+          <Route path="/ContactUs" element={<ContactUs />} />
         </Routes>
         <Footer />
       </Router>

@@ -1,14 +1,18 @@
-import React from "react";
-import { useNavigate } from "react-router-dom";
+import React,{useState} from "react";
 
-function ProjectItem({ image, name, id }) {
-  const navigate = useNavigate();
+function ProjectItem({ video, name, id, image, link }) {
+  const [isHovered, setIsHovered] = useState(false)
 
   return (
-    <div className="projectItem" onClick={() => navigate("/project/" + id)}>
-      <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
+   <a href={link}> <div className="projectItem"  onMouseEnter={() => setIsHovered(true)}
+    onMouseLeave={() => setIsHovered(false)}>
+    {isHovered ? (
+  <video src={video} autoPlay muted loop style={{width:"300px", height: "300px"}}></video>
+  ) : (<img src={image} style={{width: "300px", height:"300px"}}/>)}
+      <img src={image} alt={name} style={{width: "300px", height:"300px"}}/>
+
       <h1>{name}</h1>
-    </div>
+    </div></a>
   );
 }
 

@@ -2,7 +2,10 @@ import EmailIcon from "@mui/icons-material/Email";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import React from "react";
-import { Link } from "react-router-dom";
+import {AiOutlineMail,AiOutlinePhone} from "react-icons/ai";
+import {CgProfile} from "react-icons/cg";
+import {Link} from "react-router-dom";
+import Photo from "../assests/Photo on 24.05.2023 at 18.37.jpg";
 import "../styles/home.css";
 
 function Home() {
@@ -12,22 +15,30 @@ function Home() {
         <h2>Hi, my name is Alex</h2>
         <div className="prompt">
           <p>A software Developer with a passion for learning and creating</p>
-          <LinkedInIcon />
-          <EmailIcon />
+          <a href="https://www.linkedin.com/feed/">
+            <LinkedInIcon />
+          </a>
+
+          <Link to="/ContactUs">
+            <EmailIcon />
+          </Link>
+
           <Link to="https://github.com/alexsjob89?tab=repositories">
             <GitHubIcon />
           </Link>
         </div>
       </div>
-      <div className="skills">
-        <h1>Skills</h1>
+      <div className="profile">
+        <h1><CgProfile style={{position: "absolute", marginTop: "-4rem", left: "46rem"}}/></h1>
+        <img src={Photo} alt="" width={200}/>
+        <h4><span>Name:</span>Alexandru Dorultan</h4>
+        <p><AiOutlinePhone size={25} style={{marginRight: "10px", marginBottom:"-7px"}}/>07565883908</p>
+<p><AiOutlineMail size={25} style={{marginRight: "10px", marginBottom:"-7px"}}/>alexandru.dorultan@live.com</p>
+<p><span>Address:</span>Beckton, London ,United Kingdom</p>
+
       </div>
-      <ol className="list">
-        <li className="item">
-          <h2>Front-End</h2>
-          <span>React.js, javaScript, HTML, CSS</span>
-        </li>
-      </ol>
+
+
     </div>
   );
 }
