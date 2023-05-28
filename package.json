@@ -1,6 +1,5 @@
 {
-    "homepage": "http://alexsjob89.github.io/alex-portofolio",
-
+    "homepage": "http://alexsjob89.github.io/my-react-portofolio",
     "name": "alex-portofolio",
     "version": "0.1.0",
     "private": true,
@@ -28,7 +27,7 @@
     "scripts": {
         "start": "react-scripts start",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
+        "deploy": "gh-pages -d build -f",
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
