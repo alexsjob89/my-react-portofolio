@@ -1,18 +1,19 @@
 
 import GitHubIcon from "@mui/icons-material/GitHub";
 import React from "react";
-import {useNavigate,useParams} from "react-router-dom";
+import {useParams} from "react-router-dom";
 import {ProjectList} from "../helper/ProjectList";
 import "../styles/projectDisplay.css";
 
 function ProjectDisplay() {
-  const navigate = useNavigate();
+
+
 
 
   const { id } = useParams();
   const project = ProjectList[id];
   return (
-    <div className="project">
+    <div className="project" >
     <img src={project.image} alt={project.name} style={{width: "300px", height:"300px"}}/>
 
 
