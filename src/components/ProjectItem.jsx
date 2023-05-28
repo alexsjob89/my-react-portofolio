@@ -9,7 +9,7 @@ function ProjectItem({ video, name, id, image, link }) {
     {isHovered ? (
   <video src={video} autoPlay muted loop style={{width:"300px", height: "300px"}}></video>
   ) : (<img src={image} style={{width: "300px", height:"300px"}}/>)}
-      <img src={image} alt={name} style={{width: "300px", height:"300px"}}/>
+
 
       <h1>{name}</h1>
     </div></a>

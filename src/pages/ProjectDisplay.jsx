@@ -13,6 +13,8 @@ function ProjectDisplay() {
   const project = ProjectList[id];
   return (
     <div className="project">
+    <img src={project.image} alt={project.name} style={{width: "300px", height:"300px"}}/>
+
 
       <h1>{project.name}</h1>
 
