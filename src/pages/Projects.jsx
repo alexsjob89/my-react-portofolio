@@ -1,12 +1,11 @@
 import React from "react";
-import {useNavigate,useParams} from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 import ProjectItem from "../components/ProjectItem";
 import {ProjectList} from "../helper/ProjectList";
 import "../styles/projects.css";
 
 function Projects() {
   const navigate = useNavigate();
-  const  params = useParams(navigate)
 
   return (
     <div className="projects" onClick={() => {

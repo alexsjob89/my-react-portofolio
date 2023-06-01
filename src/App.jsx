@@ -9,14 +9,15 @@ import ProjectDisplay from "./pages/ProjectDisplay";
 import Projects from "./pages/Projects";
 
 function App() {
+
   return (
     <div className="App">
       <Router>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/project/:id" element={<ProjectDisplay />} />
+          <Route path="/projects/: id" element={<Projects />} />
+          <Route path="/project" element={<ProjectDisplay />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/ContactUs" element={<ContactUs />} />
         </Routes>
