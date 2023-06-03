@@ -1,3 +1,5 @@
+
+
 import {Route,BrowserRouter as Router,Routes} from "react-router-dom";
 import "./App.css";
 import {ContactUs} from "./components/ContactUs";
@@ -16,8 +18,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/projects/: id" element={<Projects />} />
-          <Route path="/project" element={<ProjectDisplay />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/project/: id" element={<ProjectDisplay />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/ContactUs" element={<ContactUs />} />
         </Routes>

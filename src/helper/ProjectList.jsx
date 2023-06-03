@@ -8,6 +8,7 @@ import image9 from "../assests/happyBirthday reminder pic.png"
 import image10 from "../assests/meeting ended pic.png"
 import image20 from "../assests/menuDisplay pic.png"
 import image11 from "../assests/pricing selector pic.png"
+import image12 from "../assests/profile page header pic.png"
 import image15 from "../assests/profile settings pic.png"
 import image1 from "../assests/questionnary app pic.png"
 import image13 from "../assests/redeem coupon.png"
@@ -124,7 +125,7 @@ export const ProjectList = [
     name: "Profile header card",
     video: video12,
     skills: "Html, CSS, javaScript, react",
-    image: image13,
+    image: image12,
     link: "https://alexsjob89.github.io/profile-header-card-react-js/"
   },
   {
