@@ -15,6 +15,7 @@ import image13 from "../assests/redeem coupon.png"
 import image14 from "../assests/reviews project pic.png"
 import image2 from "../assests/shopping cart pic.png"
 import image16 from "../assests/tabs info pic.png"
+import image21 from "../assests/tic-tac-toe-react.png"
 import image17 from "../assests/toggle position pic.png"
 import image18 from "../assests/tour project pic.png"
 import image19 from "../assests/upload in progress pic.png"
@@ -32,6 +33,7 @@ import video5 from "../assests/videos/Untitled-2.mp4"
 import video17 from "../assests/videos/Untitled-21.mp4"
 import video18 from "../assests/videos/Untitled-22.mp4"
 import video19 from "../assests/videos/Untitled-23.mp4"
+import video21 from "../assests/videos/Untitled-24.mp4"
 import video6 from "../assests/videos/Untitled-3.mp4"
 import video7 from "../assests/videos/Untitled-4.mp4"
 import video3 from "../assests/videos/Untitled-5.mp4"
@@ -183,5 +185,12 @@ export const ProjectList = [
     skills: "Html, CSS, javaScript, react",
     image: image20,
     link: "https://alexsjob89.github.io/menu-display-mini-project-react/"
+  },
+  {
+    name: "Tic Tac Toe react",
+    video: video21,
+    skills: "Html, CSS, javaScript, react",
+    image: image21,
+    link: "https://alexsjob89.github.io/tic-tac-toe-react.js/"
   },
 ];
