@@ -149,7 +149,7 @@ export const ProjectList = [
     video: video15,
     skills: "Html, CSS, javaScript, react",
     image: image15,
-    link: "http://alexsjob89.github.io/settings-project-react "
+    link: "https://alexsjob89.github.io/settings-project-react/ "
   },
   {
     name: "Tabs",
