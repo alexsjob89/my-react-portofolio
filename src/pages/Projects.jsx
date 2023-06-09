@@ -7,6 +7,7 @@ import "../styles/projects.css";
 function Projects() {
   const navigate = useNavigate();
 
+
   return (
     <div className="projects" onClick={() => {
 
